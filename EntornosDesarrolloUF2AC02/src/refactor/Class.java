@@ -3,12 +3,12 @@ package refactor;
 public class Class {
 	
 	public static void main(String[] args) {
-		int a = 4;
-		int b = 10;
+		int precioManzanas = 4;
+		int precioJudias = 10;
 		
-		int c = Utils.suma(a, b);
+		int totalCompra = Utils.suma(precioManzanas, precioJudias);
 		
-		System.out.println(c);
+		System.out.println(totalCompra);
 	}
 
 }
